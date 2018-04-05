@@ -31,5 +31,7 @@ Referense implementation with deployment modules are based on container technolo
 * MongoDB-express
 
 ***Installing containers:***
+* Download and install the containers by using following [docker-compose](https://github.com/TampereTC/tre-smartcity-frontEnd/blob/master/docker-compose.yml) file
+* Locate the docker-compose file to folder and run: 'sudo docker-compose up -d'
 
 
