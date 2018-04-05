@@ -1,13 +1,11 @@
 var bodyParser = require('body-parser');
 var request = require('request');
 var Promise = require('promise');
-
-
+var fs = require('node-fixtures');
 var randomGenerator= require('./randomFunctions');
 
-
 var deviceConfiguration = function deviceConfiguration(provisionConfig){
-      return new Promise(function (fulfill, reject){
+      return new Promise(function (fulfill, reject){  
       request({
             headers:provisionConfig.headers,
             url: provisionConfig.url,
@@ -21,12 +19,11 @@ var deviceConfiguration = function deviceConfiguration(provisionConfig){
     })
 }
 
+var deviceProvision = function deviceProvision(provisionDevice, temp_json){
 
-var deviceProvision = function deviceProvision(provisionDevice,id){
-      provisionDevice.body.devices[0].device_id= provisionDevice.body.devices[0].device_id.substring(0, provisionDevice.body.devices[0].device_id-((provisionDevice.body.devices[0].device_id).length-21));
-      provisionDevice.body.devices[0].entity_name=provisionDevice.body.devices[0].entity_name.substring(0, provisionDevice.body.devices[0].entity_name-((provisionDevice.body.devices[0].entity_name).length-12));
-      provisionDevice.body.devices[0].device_id=provisionDevice.body.devices[0].device_id+id;
-      provisionDevice.body.devices[0].entity_name=provisionDevice.body.devices[0].entity_name+id;
+      provisionDevice.body.devices.device_id=temp_json.device_id+temp_json.sensor_id;
+      provisionDevice.body.devices.entity_name=temp_json.sensorname;
+
       return new Promise(function (fulfill, reject){
       request({
             headers:provisionDevice.headers,
@@ -42,24 +39,24 @@ var deviceProvision = function deviceProvision(provisionDevice,id){
 }
 
 
-var deviceSendingMeasures = function deviceSendingMeasures(sendingDataObject, provisionDevice, id){
-    sendingDataObject.url=sendingDataObject.url+provisionDevice.body.devices[0].device_id;
-    setInterval(() => {
-        //sendingDataObject.body="t|"+randomGenerator.getRandomTemperature(-30,24)+"|h|"+randomGenerator.getRandomHumidity(0,50)+"|l1|"+randomGenerator.geo().longitude+"|l2|"+randomGenerator.geo().latitude;
-        sendingDataObject.body="t|"+randomGenerator.getRandomTemperature(-30,24)+"|h|"+randomGenerator.getRandomHumidity(0,50)+"|l1|23.86|l2|61.497978";
-        console.log(sendingDataObject);
+var deviceSendingMeasures = function deviceSendingMeasures(sendingDataObject){
+    //var id = temp_json.device_id;
+    
+    //sendingDataObject.url=sending_url;
+        //Generate sensor data. Temperature value range: e.g -2 - 10 C, Humidity range: 35 - 50, sensor geo location: 23.7632968 61.4888933
+        return new Promise(function (fulfill, reject){
         request({
             headers:sendingDataObject.headers,
             url: sendingDataObject.url,
             method: sendingDataObject.method,
             body:sendingDataObject.body
-            }, function (error, response,body){
+            }, function (error, response,body){ 
               });
-
-}, 5000);
+        }) 
 }
 
-
-exports.deviceConfiguration=deviceConfiguration;
-exports.deviceProvision=deviceProvision;
-exports.deviceSendingMeasures=deviceSendingMeasures;
+module.exports={
+  deviceConfiguration,
+  deviceProvision,
+  deviceSendingMeasures
+};
