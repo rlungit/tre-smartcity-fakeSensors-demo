@@ -30,6 +30,6 @@ Referense implementation with deployment modules are based on container technolo
 * Portainer
 * MongoDB-express
 
-***Installing containers***
+***Installing containers:***
 
 
