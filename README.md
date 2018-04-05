@@ -30,11 +30,18 @@ Referense implementation with deployment modules are based on container technolo
 * Portainer
 * MongoDB-express
 
-***Installing containers:***
+***Installing containers and testing tools:***
 * Download and install the containers by using following [docker-compose](https://github.com/TampereTC/tre-smartcity-frontEnd/blob/master/docker-compose.yml) file
-* Locate the docker-compose file to folder and run: 'sudo docker-compose up -d'
+* Locate the docker-compose file to folder and run: '#sudo docker-compose up -d'
 * Clone the github project: [tre-smartcity-fakeSensors-demo](https://github.com/TampereTC/tre-smartcity-fakeSensors-demo)
 
+***How to run test applcation:***
+* locate to the folder where 'tre-smartcity-fakeSensors-demo' repository is cloned
+# node sensor_genarator.js
+The nodejs is now running in 5 sec loop to generate data
 
-
+***How to see sensor data on maps application***
+* Open brower by using following url: http://0.0.0.0:3000/
+Refresh the screen by F5 in order the see updated sensor data.
+* If you need to see list of data on json format on browser then use the following url: http://0.0.0.0:3001/ 
 
