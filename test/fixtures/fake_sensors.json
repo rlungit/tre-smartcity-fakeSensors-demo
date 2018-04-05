@@ -1,0 +1,2 @@
+[{"sensor_id":"1","device_id":"nokiaHV30GarageSensor","sensorname":"garageSensor1", "latitude":"61.4888113", "longitude":"23.7632098", "temp_range_low":"1", "temp_range_high":"10", "hum_range_low":"1", "hum_range_high":"50"},
+{"sensor_id":"2","device_id":"nokiaHV30GarageSensor","sensorname":"garageSensor2", "latitude":"61.4888913", "longitude":"23.7632998", "temp_range_low":"1", "temp_range_high":"10", "hum_range_low":"1", "hum_range_high":"50"}]
