@@ -3,7 +3,7 @@
 ## This repository is providing testing tool to generate content for Tampere smart City specific Fiware IoT platform.
 
 **Overview of Fiware demo installation**
-![Architecture diagram](https://github.com/Fiware/tutorials.TourGuide-App/blob/develop/doc/img/archDiagram.png?raw=true "Architecture diagram")
+![Architecture diagram](https://github.com/TampereTC/tre-smartcity-fakeSensors-demo/blob/master/test/reference_env.jpg?raw=true "Architecture diagram")
 
 It includes (for the moment) the following components:
 
