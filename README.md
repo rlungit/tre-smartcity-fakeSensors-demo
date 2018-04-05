@@ -37,7 +37,7 @@ Referense implementation with deployment modules are based on container technolo
 
 ***How to run test applcation:***
 * locate to the folder where 'tre-smartcity-fakeSensors-demo' repository is cloned
-# node sensor_genarator.js
+'node sensor_genarator.js'
 The nodejs is now running in 5 sec loop to generate data
 
 ***How to see sensor data on maps application***
