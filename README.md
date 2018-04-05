@@ -9,9 +9,9 @@ It includes (for the moment) the following components:
 
 * [Orion Context Broker](http://catalogue.fiware.org/enablers/publishsubscribe-context-broker-orion-context-broker), providing the NGSIv2 interfaces.
 * [Backend Device Management - IDAS](http://catalogue.fiware.org/enablers/backend-device-management-idas),  to connect IoT devices (temperature & humidity).
-* [tre-smartcity-frontEnd](https://github.com/TampereTC/tre-smartcity-frontEnd), 
-* [tre-smartcity-backEnd](https://github.com/TampereTC/tre-smartcity-backEnd),
-* [tre-smartcity-fakeSensors-demo](https://github.com/TampereTC/tre-smartcity-fakeSensors-demo),
+* [tre-smartcity-frontEnd](https://github.com/TampereTC/tre-smartcity-frontEnd), Client map application to visualize sensors on top of google map.
+* [tre-smartcity-backEnd](https://github.com/TampereTC/tre-smartcity-backEnd), RESTful API service to serve client apps
+* [tre-smartcity-fakeSensors-demo](https://github.com/TampereTC/tre-smartcity-fakeSensors-demo), Toolset to managed sensor(s) registration to Fiware and generate in loop fake sensor data. Based on json list of temp/hum sensor data with geo locations.
 
 
 
