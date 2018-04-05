@@ -20,15 +20,15 @@ It includes (for the moment) the following components:
 Referense implementation with deployment modules are based on container technologies. Follow installation instructions are based on localhost setup on linux environment. Tested on Ubuntu 16.04 LTS enviroment.
 
 ***Requirements:***
-*docker 
-*docker-compose
-*nodejs
-*npm
-*details of nodejs modules -> TBD
+* docker 
+* docker-compose
+* nodejs
+* npm
+* details of nodejs modules -> TBD
 
 ***Other usefull tools:***
-*Portainer
-*MongoDB-express
+* Portainer
+* MongoDB-express
 
 ***Installing containers***
 
