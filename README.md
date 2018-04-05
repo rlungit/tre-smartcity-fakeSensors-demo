@@ -16,3 +16,6 @@ It includes (for the moment) the following components:
 
 
 **Installation of tre-smartcity Fiware Containers**
+
+Referense implementation with deployment modules are based on container technologies. Follow installation instructions are based on localhost setup on linux environment. Tested on Ubuntu 16.04 LTS enviroment.
+***Requirements:***
