@@ -45,5 +45,5 @@ The nodejs is now running in 5 sec loop to generate data
 ***How to see sensor data on maps application***
 * Open brower by using following url: http://0.0.0.0:3000/
 Refresh the screen by F5 in order the see updated sensor data.
-* If you need to see list of data on json format on browser then use the following url: http://0.0.0.0:3001/ 
+* If you'd like to explore sensor data in json format on browser then use the following url: http://0.0.0.0:3001/ 
 ![Client UI](https://github.com/TampereTC/tre-smartcity-fakeSensors-demo/blob/master/test/Screenshot%20from%202018-04-05%2013-29-57.png?raw=true "Map view")
