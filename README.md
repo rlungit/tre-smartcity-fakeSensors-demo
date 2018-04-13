@@ -24,7 +24,7 @@ Referense implementation with deployment modules are based on container technolo
 * docker-compose
 * nodejs
 * npm
-* details of nodejs modules -> TBD
+* nodejs modules -> '$ npm install'
 
 ***Other usefull tools:***
 * Portainer
