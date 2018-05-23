@@ -24,26 +24,24 @@ Referense implementation with deployment modules are based on container technolo
 * docker-compose
 * nodejs
 * npm
-* nodejs modules -> '$ npm install'
 
 ***Other usefull tools:***
-* Portainer
-* MongoDB-express
+* [Portainer](https://portainer.io/install.html)
+* [MongoDB-express](https://hub.docker.com/_/mongo-express/)
 
 ***Installing containers and testing tools:***
-* Download and install the containers by using following [docker-compose](https://github.com/TampereTC/tre-smartcity-frontEnd/blob/master/docker-compose.yml) file
-* Locate the docker-compose file to folder and run: '#sudo docker-compose up -d'
+* Download and install the containers by using following [docker-compose](https://raw.githubusercontent.com/TampereTC/tre-smartcity-frontEnd/master/docker-compose.yml) file
+* Locate the docker-compose file to folder and run: '$ sudo docker-compose up -d'
 * Clone the github project: [tre-smartcity-fakeSensors-demo](https://github.com/TampereTC/tre-smartcity-fakeSensors-demo)
+* Run the following command on the folder where the demo package is extracted: '$ npm install'
 
-***How to run test applcation:***
-* locate to the folder where 'tre-smartcity-fakeSensors-demo' repository is cloned
-
-'node sensor_genarator.js'
+***How to run test application:***
+* locate to the folder where 'tre-smartcity-fakeSensors-demo' repository is cloned and run following command: '$ node sensor_genarator.js'
 
 The nodejs is now running in 5 sec loop to generate data
 
 ***How to see sensor data on maps application***
-* Open brower by using following url: http://0.0.0.0:3000/
+* Open brower by using following url: http://0.0.0.0:3000/ or localhost:3000
 Refresh the screen by F5 in order the see updated sensor data.
-* If you'd like to explore sensor data in json format on browser then use the following url: http://0.0.0.0:3001/ 
+* If you'd like to explore sensor data in json format on browser then use the following url: http://0.0.0.0:3001/ or localhost:3001
 ![Client UI](https://github.com/TampereTC/tre-smartcity-fakeSensors-demo/blob/master/test/Screenshot%20from%202018-04-05%2013-29-57.png?raw=true "Map view")
