@@ -20,10 +20,10 @@ It includes (for the moment) the following components:
 Referense implementation with deployment modules are based on container technologies. Follow installation instructions are based on localhost setup on linux environment. Tested on Ubuntu 16.04 LTS enviroment.
 
 ***Requirements:***
-* docker 
-* docker-compose
-* nodejs
-* npm
+* [docker](https://docs.docker.com/glossary/?term=installation)
+* [docker-compose](https://docs.docker.com/compose/install/)
+* [nodejs](https://nodejs.org/en/download/package-manager/)
+* [npm](https://www.npmjs.com/get-npm)
 
 ***Other usefull tools:***
 * [Portainer](https://portainer.io/install.html)
@@ -42,6 +42,9 @@ The nodejs is now running in 5 sec loop to generate data
 
 ***How to see sensor data on maps application***
 * Open brower by using following url: http://0.0.0.0:3000/ or localhost:3000
+
 Refresh the screen by F5 in order the see updated sensor data.
 * If you'd like to explore sensor data in json format on browser then use the following url: http://0.0.0.0:3001/ or localhost:3001
+
+
 ![Client UI](https://github.com/TampereTC/tre-smartcity-fakeSensors-demo/blob/master/test/Screenshot%20from%202018-04-05%2013-29-57.png?raw=true "Map view")
