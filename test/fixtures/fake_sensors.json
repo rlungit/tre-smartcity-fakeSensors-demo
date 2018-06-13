@@ -5,4 +5,9 @@
 {"sensor_id":"5","device_id":"nokiaHV30GarageSensor","sensorname":"garageSensor5", "latitude":"61.4956561", "longitude":"23.7683886", "temp_range_low":"1", "temp_range_high":"10", "hum_range_low":"1", "hum_range_high":"50"},
 {"sensor_id":"6","device_id":"nokiaHV30GarageSensor","sensorname":"garageSensor6", "latitude":"61.4994652", "longitude":"23.7614363", "temp_range_low":"1", "temp_range_high":"10", "hum_range_low":"1", "hum_range_high":"50"},
 {"sensor_id":"7","device_id":"nokiaHV30GarageSensor","sensorname":"garageSensor7", "latitude":"61.5005658", "longitude":"23.7627895", "temp_range_low":"1", "temp_range_high":"10", "hum_range_low":"1", "hum_range_high":"50"},
-{"sensor_id":"8","device_id":"nokiaHV30GarageSensor","sensorname":"garageSensor8", "latitude":"61.4888913", "longitude":"23.7632998", "temp_range_low":"1", "temp_range_high":"10", "hum_range_low":"1", "hum_range_high":"50"}]
+{"sensor_id":"8","device_id":"nokiaHV30GarageSensor","sensorname":"garageSensor8", "latitude":"61.4888913", "longitude":"23.7632998", "temp_range_low":"1", "temp_range_high":"10", "hum_range_low":"1", "hum_range_high":"50"},
+{"sensor_id":"9","device_id":"nokiaHV30GarageSensor","sensorname":"garageSensor9", "latitude":"61.6888913", "longitude":"23.7592998", "temp_range_low":"1", "temp_range_high":"10", "hum_range_low":"1", "hum_range_high":"50"},
+{"sensor_id":"11","device_id":"nokiaHV30GarageSensor","sensorname":"garageSensor11", "latitude":"61.6988913", "longitude":"23.7555998", "temp_range_low":"1", "temp_range_high":"10", "hum_range_low":"1", "hum_range_high":"50"},
+{"sensor_id":"10","device_id":"nokiaHV30GarageSensor","sensorname":"garageSensor10", "latitude":"61.3388413", "longitude":"23.0131498", "temp_range_low":"1", "temp_range_high":"10", "hum_range_low":"1", "hum_range_high":"50"},
+{"sensor_id":"12","device_id":"nokiaHV30GarageSensor","sensorname":"garageSensor12", "latitude":"61.4488413", "longitude":"23.2232498", "temp_range_low":"1", "temp_range_high":"19", "hum_range_low":"1", "hum_range_high":"50"}
+]
